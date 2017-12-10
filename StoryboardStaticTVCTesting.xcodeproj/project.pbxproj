@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529586131FDD5E6D00E6EFE7 /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529586121FDD5E6D00E6EFE7 /* SampleTableViewController.swift */; };
 		52A5208E1FDD5B8F00B86BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5208D1FDD5B8F00B86BEA /* AppDelegate.swift */; };
-		52A520901FDD5B8F00B86BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5208F1FDD5B8F00B86BEA /* ViewController.swift */; };
 		52A520931FDD5B8F00B86BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A520911FDD5B8F00B86BEA /* Main.storyboard */; };
 		52A520951FDD5B8F00B86BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A520941FDD5B8F00B86BEA /* Assets.xcassets */; };
 		52A520981FDD5B8F00B86BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A520961FDD5B8F00B86BEA /* LaunchScreen.storyboard */; };
 		52A520A31FDD5B8F00B86BEA /* StoryboardStaticTVCTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A520A21FDD5B8F00B86BEA /* StoryboardStaticTVCTestingTests.swift */; };
+		52A520B21FDD5CA500B86BEA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A520AF1FDD5C9300B86BEA /* Nimble.framework */; };
+		52A520B31FDD5CA500B86BEA /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A520AE1FDD5C9300B86BEA /* Quick.framework */; };
+		52A520B51FDD5CBC00B86BEA /* Nimble.framework in Carthage: Copy Files */ = {isa = PBXBuildFile; fileRef = 52A520AF1FDD5C9300B86BEA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52A520B61FDD5CBC00B86BEA /* Quick.framework in Carthage: Copy Files */ = {isa = PBXBuildFile; fileRef = 52A520AE1FDD5C9300B86BEA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +29,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		52A520B41FDD5CAF00B86BEA /* Carthage: Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52A520B51FDD5CBC00B86BEA /* Nimble.framework in Carthage: Copy Files */,
+				52A520B61FDD5CBC00B86BEA /* Quick.framework in Carthage: Copy Files */,
+			);
+			name = "Carthage: Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		529586121FDD5E6D00E6EFE7 /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 		52A5208A1FDD5B8F00B86BEA /* StoryboardStaticTVCTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardStaticTVCTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A5208D1FDD5B8F00B86BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52A5208F1FDD5B8F00B86BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52A520921FDD5B8F00B86BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52A520941FDD5B8F00B86BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A520971FDD5B8F00B86BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +55,8 @@
 		52A5209E1FDD5B8F00B86BEA /* StoryboardStaticTVCTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardStaticTVCTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A520A21FDD5B8F00B86BEA /* StoryboardStaticTVCTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardStaticTVCTestingTests.swift; sourceTree = "<group>"; };
 		52A520A41FDD5B8F00B86BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A520AE1FDD5C9300B86BEA /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
+		52A520AF1FDD5C9300B86BEA /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A520B21FDD5CA500B86BEA /* Nimble.framework in Frameworks */,
+				52A520B31FDD5CA500B86BEA /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +82,10 @@
 		52A520811FDD5B8F00B86BEA = {
 			isa = PBXGroup;
 			children = (
+				52A520AD1FDD5C3C00B86BEA /* Frameworks */,
+				52A5208B1FDD5B8F00B86BEA /* Products */,
 				52A5208C1FDD5B8F00B86BEA /* StoryboardStaticTVCTesting */,
 				52A520A11FDD5B8F00B86BEA /* StoryboardStaticTVCTestingTests */,
-				52A5208B1FDD5B8F00B86BEA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				52A5208D1FDD5B8F00B86BEA /* AppDelegate.swift */,
-				52A5208F1FDD5B8F00B86BEA /* ViewController.swift */,
 				52A520911FDD5B8F00B86BEA /* Main.storyboard */,
 				52A520941FDD5B8F00B86BEA /* Assets.xcassets */,
 				52A520961FDD5B8F00B86BEA /* LaunchScreen.storyboard */,
 				52A520991FDD5B8F00B86BEA /* Info.plist */,
+				529586121FDD5E6D00E6EFE7 /* SampleTableViewController.swift */,
 			);
 			path = StoryboardStaticTVCTesting;
 			sourceTree = "<group>";
@@ -94,6 +118,15 @@
 				52A520A41FDD5B8F00B86BEA /* Info.plist */,
 			);
 			path = StoryboardStaticTVCTestingTests;
+			sourceTree = "<group>";
+		};
+		52A520AD1FDD5C3C00B86BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A520AF1FDD5C9300B86BEA /* Nimble.framework */,
+				52A520AE1FDD5C9300B86BEA /* Quick.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +156,7 @@
 				52A5209A1FDD5B8F00B86BEA /* Sources */,
 				52A5209B1FDD5B8F00B86BEA /* Frameworks */,
 				52A5209C1FDD5B8F00B86BEA /* Resources */,
+				52A520B41FDD5CAF00B86BEA /* Carthage: Copy Files */,
 			);
 			buildRules = (
 			);
@@ -199,8 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A520901FDD5B8F00B86BEA /* ViewController.swift in Sources */,
 				52A5208E1FDD5B8F00B86BEA /* AppDelegate.swift in Sources */,
+				529586131FDD5E6D00E6EFE7 /* SampleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +389,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LFKG3J295;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StoryboardStaticTVCTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.StoryboardStaticTVCTesting;
@@ -370,6 +408,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LFKG3J295;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StoryboardStaticTVCTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.StoryboardStaticTVCTesting;
@@ -386,6 +428,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LFKG3J295;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StoryboardStaticTVCTestingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.StoryboardStaticTVCTestingTests;
@@ -403,6 +449,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LFKG3J295;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StoryboardStaticTVCTestingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.StoryboardStaticTVCTestingTests;
